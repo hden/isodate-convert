@@ -1,6 +1,6 @@
 {
   "name": "isodate-convert",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Traverse an object, converting all ISO strings to JavaScript Dates and vice versa.",
   "main": "index.js",
   "directories": {
