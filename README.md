@@ -7,14 +7,16 @@ Traverse an object, converting all ISO strings to JavaScript Dates and vice vers
 
 ## Example
 
-    var decode = require('isodate-convert').decode
-    var obj = { date: '2013-09-04T00:57:26.434Z' }
-    var decoded = decode(obj)
-    // { date: [object Date] }
+```js
+var decode = require('isodate-convert').decode
+var obj = { date: '2013-09-04T00:57:26.434Z' }
+var decoded = decode(obj)
+// { date: [object Date] }
 
-    var encode = require('isodate-convert').encode
-    var encoded = encode(decoded)
-    // { date: '2013-09-04T00:57:26.434Z' }
+var encode = require('isodate-convert').encode
+var encoded = encode(decoded)
+// { date: '2013-09-04T00:57:26.434Z' }
+```
 
 ## API
 
